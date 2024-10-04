@@ -1,0 +1,334 @@
+*{
+    margin: 0px;
+    font-family: "Alegreya", serif;
+}
+body {
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+}
+span {
+    font-family: "Dancing Script", cursive;
+    font-size: 80px;
+    color: orange;
+}
+#container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    
+    
+    
+}
+header{
+    display: flex;
+    position: relative;
+}
+.logo{
+    position: absolute;
+    color: aqua;
+    z-index: 1;
+    
+}
+.logo img{
+    width: 70px;
+}
+nav{
+    position: absolute;
+    z-index: 1;
+    margin: 30px 0px 0px 800px;
+   
+}
+#home{
+    border: solid;
+overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+#home-img1{
+    width: 100%;
+    
+    filter: brightness(50%);
+    
+}
+.wrap {
+    width: 100%;
+    height: 800px;
+   
+}
+.home-img2{
+    margin: -190px 0px 0px 0px;
+}
+#home-welcome{
+position: relative;
+text-align: center;
+margin-top: -400px;
+z-index: 1;
+color: aqua;
+
+}
+.navbar{
+    text-decoration: none;
+    color: aqua;
+    margin: 10px;
+    
+}
+#home-welcome img{
+    width: 100px;
+    
+}
+.our-story{
+    
+    position: relative;
+text-align: center;
+color: black;
+z-index: 1;
+
+display: flex;
+margin: 2px;
+background-image: url("https://img.freepik.com/free-photo/close-up-street-food-neon-light_23-2151571575.jpg?t=st=1727880960~exp=1727884560~hmac=c8df378c24062ad324fe2689770d63aa4740bac5c9dee21f9112ce623949402e&w=1380");
+
+}
+.story-image{
+    display: flex;
+   
+    
+    
+}
+.story-content p{
+font-weight: 600;
+color: aqua;
+}
+.story-content a{
+    color: aqua;
+}
+.story-content h1{
+    color: red;
+}
+#img-1{
+    width: 250px;
+    margin: 20px;
+}
+#img-2{
+    width: 250px;
+    
+    margin: 20px;
+}
+.recipes{ 
+    height: 500px;
+    
+display: flex;
+position: relative;
+align-items: center;
+justify-content: center;
+margin: 0px;
+
+
+
+}
+
+
+
+.recipes img{
+    width: 600px;
+    margin: 5px;
+    overflow: hidden;
+    
+}
+.recipes h1{
+    position: absolute;
+    color: aqua;
+}
+
+#img-recipe2{
+    width: 600px;
+    height: 492px;
+    object-fit: cover;
+    object-position: top 30px;
+    
+}
+#menu {
+         
+    display: flex;
+    
+    
+    margin: 2px;
+    background-image: url("https://img.freepik.com/free-photo/close-up-street-food-neon-light_23-2151571575.jpg?t=st=1727880960~exp=1727884560~hmac=c8df378c24062ad324fe2689770d63aa4740bac5c9dee21f9112ce623949402e&w=1380");
+  }
+  .col {
+    
+    flex: 1;      
+  }
+  .col h1{
+    color: aqua;
+  }
+  .col p{
+    font-weight: 600;
+    color:aqua;
+  }
+  .col a{
+    color: aqua;
+  }
+  .row {
+    
+    
+    display: flex;
+  }
+  #menuImg img {
+    
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    object-position: top 30px;
+    margin: 10px;
+    overflow: hidden;
+  }
+  .blent{
+    border: solid ;
+height: 550px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    overflow: hidden;
+  }
+.blent h1{
+position: absolute;
+text-align: center;
+color: aqua;
+}
+.blent img{
+width: 100%;
+}
+
+.delight{
+    display: flex;
+    margin-top: 2px;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    background-image: url("https://img.freepik.com/free-photo/close-up-street-food-neon-light_23-2151571575.jpg?t=st=1727880960~exp=1727884560~hmac=c8df378c24062ad324fe2689770d63aa4740bac5c9dee21f9112ce623949402e&w=1380");
+}
+#delight-img{
+    margin-left:100px;
+    display: flex;
+    
+    
+}
+#delight-img img{
+    width: 300px;
+    margin: 10px;
+}
+#delight-content1{
+margin-right: 50px;
+}
+#delight-content1 p{
+    font-weight: 600;
+    color: aqua;
+}
+#delight-content1 h1{
+    margin-left:100px ;
+    color: aqua;
+}
+#delight-content1 a{
+    margin-left: 100px;
+    color: aqua;
+}
+.about-albaik{
+    
+    
+    margin-top: 2px;
+    position: relative;
+    background-color: black;
+    
+}
+#footer-content{
+    margin-left: 38%;
+    
+margin-bottom: 20px;
+}
+#footer-content h2{
+    
+margin-left: 80px;
+margin-bottom: 40px;
+color: aqua;
+    
+}
+.about-albaik h3{
+    margin-left: 35%;
+    color: aqua;
+    margin-top: 30px;
+    
+}
+.footer-icon{
+    margin-left: 33%;
+    margin-top: 10px;
+    display: flex;  
+}
+#right-icon{
+    margin-left: 80%;
+    
+    
+    
+}
+#footer-content p{
+    margin-right: 50%;
+    color: aqua;
+    
+}
+.footer-all-icon a{
+    margin: 10px;
+    color: aqua;
+    text-decoration: none;
+    
+}
+.footer-all-icon a:hover{
+    
+    text-decoration-color: white;
+    
+
+}
+.about-albaik h3:hover{
+color: aqua;
+}
+.icon-footer-animation:hover .brand{
+    color: aqua;
+    animation: around 10s;
+}
+
+@keyframes around{
+    0%{
+        transform: rotate(360deg);
+    }
+    20%{
+        transform: rotate(-360deg);
+    }
+    40%{
+        transform: rotate(360deg);
+    }
+    60%{
+        transform: rotate(-360deg);
+    }
+    80%{
+        transform: rotate(360deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
+html{
+    scroll-behavior: smooth;
+
+}
+::-webkit-scrollbar{
+    width: 10px;
+    border-radius: 10px;
+    
+}
+::-webkit-scrollbar-track{
+    background-color: azure;
+}
+::-webkit-scrollbar-thumb{
+    background-color: black;
+    border-radius: 10px;
+}
